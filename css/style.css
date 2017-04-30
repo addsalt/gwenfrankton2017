@@ -43,7 +43,7 @@ html {
     padding: 2rem 0;
 }
 
-a {color: #3a3a3a;}
+a {color: #3a3a3a; text-decoration: none;}
 
 main {
     width: 90%;
@@ -57,7 +57,7 @@ main {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, .morion {font-family: 'Morion', Palatino, serif; line-height: 1.083;}
+h1, h2, h3, h4, .morion {font-family: 'Morion', Palatino, serif; line-height: 1.083; font-weight: normal;}
 
 h1 {font-size: 1.45rem;}
 
@@ -66,8 +66,7 @@ h1 {font-size: 1.45rem;}
 .main-img {margin: 2rem auto;}
 
 .promo {
-    margin-top: 1.5rem;
-    font-weight: 700;
+    font-size: 1.25em;
 }
 
 .about p {
@@ -79,9 +78,20 @@ h1 {font-size: 1.45rem;}
 
 .about p~p{margin-top: 1.25em;}
 
-.copyright {margin-top: 2rem;}
+footer {margin-top: 2rem; font-size: 1em;}
 
-.copyright p {margin-top: .25em;}
+.copyright {margin-top: .75rem;}
+
+.promo a {
+    display: inline-block;
+    border-bottom: solid 1px;
+    -webkit-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+.promo a:hover {
+    border-color: #f9f9f3;
+}
 
 @media only screen and (min-width: 60em) {
     
@@ -93,5 +103,5 @@ h1 {font-size: 1.45rem;}
     
     .main-img {margin: 4rem auto;}
     
-    .copyright {margin-top: 4rem;}
+    footer {margin-top: 4rem;}
 }
