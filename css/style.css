@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Morion';
+  src: url('/font/morion-regular-webfont.eot');
+  src: url('/font/morion-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/font/morion-regular-webfont.woff2') format('woff2'),
+       url('/font/morion-regular-webfont.woff') format('woff'),
+       url('/font/morion-regular-webfont.ttf')  format('truetype'),
+       url('/font/morion-regular-webfont.svg#svgMorion') format('svg');
+}
+
+*, *:after, *:before, html, body {
+    margin: 0;
+    padding: 0;
+    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+	background-color: rgba(77, 87, 96, .1);
+}
+
+html, body {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-font-smoothing: antialiased;
+    
+    font-family: "skolar-sans-latin", Myriad Pro, Myriad, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #3a3a3a;
+    
+    position: relative;
+    width: 100%;
+    background-color: #f9f9f3;
+    z-index: 0;    
+}
+
+html {
+    overflow-x: hidden;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+a {color: #3a3a3a;}
+
+main {
+    width: 90%;
+    max-width: 51.625rem;
+    margin: 0 auto;
+}
+
+.flex-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, .morion {font-family: 'Morion', Palatino, serif; line-height: 1.083;}
+
+h1 {font-size: 1.45rem;}
+
+.logo {width: 80%; max-width: 420px; margin-top: 1.4rem;}
+
+.main-img {margin: 2rem auto;}
+
+.promo {
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.about p {
+    text-align: left;
+    width: 80%;
+    max-width: 515px;
+    margin: auto;
+}
+
+.about p~p{margin-top: 1.25em;}
+
+.copyright {margin-top: 2rem;}
+
+.copyright p {margin-top: .25em;}
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        padding: 4rem 0;
+    }
+    
+    h1 {font-size: 1.875rem;}
+    
+    .main-img {margin: 4rem auto;}
+    
+    .copyright {margin-top: 4rem;}
+}

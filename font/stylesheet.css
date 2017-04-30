@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'morionregular';
+    src: url('morion-regular-webfont.eot');
+    src: url('morion-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('morion-regular-webfont.woff2') format('woff2'),
+         url('morion-regular-webfont.woff') format('woff'),
+         url('morion-regular-webfont.ttf') format('truetype'),
+         url('morion-regular-webfont.svg#morionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
